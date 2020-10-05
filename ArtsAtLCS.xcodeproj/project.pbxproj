@@ -13,6 +13,7 @@
 		0EE7F6BC252BBF3F0094215D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE7F6BB252BBF3F0094215D /* Preview Assets.xcassets */; };
 		0EE7F6C6252BC4A40094215D /* TicketsAndDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7F6C5252BC4A40094215D /* TicketsAndDates.swift */; };
 		0EE7F6CA252BC8000094215D /* MusicalNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7F6C9252BC8000094215D /* MusicalNumbers.swift */; };
+		0EE7F6CD252BC9B30094215D /* MainHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7F6CC252BC9B30094215D /* MainHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0EE7F6BD252BBF3F0094215D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EE7F6C5252BC4A40094215D /* TicketsAndDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsAndDates.swift; sourceTree = "<group>"; };
 		0EE7F6C9252BC8000094215D /* MusicalNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicalNumbers.swift; sourceTree = "<group>"; };
+		0EE7F6CC252BC9B30094215D /* MainHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0EE7F6BA252BBF3F0094215D /* Preview Content */,
 				0EE7F6C5252BC4A40094215D /* TicketsAndDates.swift */,
 				0EE7F6C9252BC8000094215D /* MusicalNumbers.swift */,
+				0EE7F6CC252BC9B30094215D /* MainHeader.swift */,
 			);
 			path = ArtsAtLCS;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE7F6CD252BC9B30094215D /* MainHeader.swift in Sources */,
 				0EE7F6C6252BC4A40094215D /* TicketsAndDates.swift in Sources */,
 				0EE7F6CA252BC8000094215D /* MusicalNumbers.swift in Sources */,
 				0EE7F6B7252BBF3C0094215D /* ContentView.swift in Sources */,

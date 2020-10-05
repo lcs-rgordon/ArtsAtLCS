@@ -12,14 +12,11 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-            
-            VStack {
+        
+            List {
                 
-                Image("banner")
-                    .resizable()
-                    .scaledToFit()
-                
-                List {
+                Section(header: MainHeader()
+                            .padding(.horizontal, -20)) {
                     
                     NavigationLink(destination: TicketsAndDates()) {
                         Text("Tickets and Dates")
@@ -30,9 +27,9 @@ struct ContentView: View {
                     }
                     
                 }
-
+                
             }
-
+            
         }
         
     }
@@ -42,5 +39,11 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environment(\.colorScheme, .dark)
+        
+        ContentView()
+            .environment(\.colorScheme, .light)
+        
     }
 }
+
