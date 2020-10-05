@@ -11,6 +11,8 @@
 		0EE7F6B7252BBF3C0094215D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7F6B6252BBF3C0094215D /* ContentView.swift */; };
 		0EE7F6B9252BBF3F0094215D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE7F6B8252BBF3F0094215D /* Assets.xcassets */; };
 		0EE7F6BC252BBF3F0094215D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE7F6BB252BBF3F0094215D /* Preview Assets.xcassets */; };
+		0EE7F6C6252BC4A40094215D /* TicketsAndDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7F6C5252BC4A40094215D /* TicketsAndDates.swift */; };
+		0EE7F6CA252BC8000094215D /* MusicalNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7F6C9252BC8000094215D /* MusicalNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		0EE7F6B8252BBF3F0094215D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EE7F6BB252BBF3F0094215D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EE7F6BD252BBF3F0094215D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE7F6C5252BC4A40094215D /* TicketsAndDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsAndDates.swift; sourceTree = "<group>"; };
+		0EE7F6C9252BC8000094215D /* MusicalNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicalNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				0EE7F6B8252BBF3F0094215D /* Assets.xcassets */,
 				0EE7F6BD252BBF3F0094215D /* Info.plist */,
 				0EE7F6BA252BBF3F0094215D /* Preview Content */,
+				0EE7F6C5252BC4A40094215D /* TicketsAndDates.swift */,
+				0EE7F6C9252BC8000094215D /* MusicalNumbers.swift */,
 			);
 			path = ArtsAtLCS;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE7F6C6252BC4A40094215D /* TicketsAndDates.swift in Sources */,
+				0EE7F6CA252BC8000094215D /* MusicalNumbers.swift in Sources */,
 				0EE7F6B7252BBF3C0094215D /* ContentView.swift in Sources */,
 				0EE7F6B5252BBF3C0094215D /* ArtsAtLCSApp.swift in Sources */,
 			);

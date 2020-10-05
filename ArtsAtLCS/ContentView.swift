@@ -11,15 +11,32 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack {
-            Image("banner")
-                .padding(.top, 40)
+        NavigationView {
             
-            Spacer()
+            VStack {
+                
+                Image("banner")
+                    .resizable()
+                    .scaledToFit()
+                
+                List {
+                    
+                    NavigationLink(destination: TicketsAndDates()) {
+                        Text("Tickets and Dates")
+                    }
+                    
+                    NavigationLink(destination: MusicalNumbers()) {
+                        Text("Musical Numbers")
+                    }
+                    
+                }
+
+            }
+
         }
-        .background(Color.black)
-        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
