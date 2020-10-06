@@ -57,10 +57,6 @@ struct TicketsAndDates_Previews: PreviewProvider {
     static var previews: some View {
         
         TicketsAndDates()
-            .environment(\.colorScheme, .dark)
-        
-        TicketsAndDates()
-            .environment(\.colorScheme, .light)
 
     }
 }
