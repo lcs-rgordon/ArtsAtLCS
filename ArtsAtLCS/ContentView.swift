@@ -12,25 +12,49 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-        
-            List {
+
+            // Arrange subviews vertically
+            VStack {
                 
-                Section(header: MainHeader()
-                            .padding(.horizontal, -20)) {
+                // Header is static and fixed at top
+                MainHeader()
+                
+                // Scrollable list of destinations
+                List {
                     
-                    NavigationLink(destination: TicketsAndDates()) {
-                        Text("Tickets and Dates")
+                    Section(header: Text("The Show")) {
+                        
+                        NavigationLink(destination: TicketsAndDates()) {
+                            Text("Tickets and Dates")
+                        }
+                        
+                        NavigationLink(destination: MusicalNumbers()) {
+                            Text("Musical Numbers")
+                        }
+                        
                     }
                     
-                    NavigationLink(destination: MusicalNumbers()) {
-                        Text("Musical Numbers")
+                    Section(header: Text("Intermission")) {
+                        
+                        NavigationLink(destination: TheatreLobbyArtDisplay()) {
+                            Text("Theatre Lobby Art Display")
+                        }
+
+                        NavigationLink(destination: Concessions()) {
+                            Text("Concessions")
+                        }
+
                     }
                     
                 }
-                
+                // Group items without collapsing hierarchy
+                // (try commenting the next view modifier out to see difference)
+                .listStyle(GroupedListStyle())
             }
+            // Remove gap at top for navigation bar
             .navigationTitle("")
             .navigationBarHidden(true)
+
             
         }
         

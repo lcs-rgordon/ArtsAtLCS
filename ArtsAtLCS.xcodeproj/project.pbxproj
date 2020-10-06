@@ -14,6 +14,8 @@
 		0EE7F6C6252BC4A40094215D /* TicketsAndDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7F6C5252BC4A40094215D /* TicketsAndDates.swift */; };
 		0EE7F6CA252BC8000094215D /* MusicalNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7F6C9252BC8000094215D /* MusicalNumbers.swift */; };
 		0EE7F6CD252BC9B30094215D /* MainHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7F6CC252BC9B30094215D /* MainHeader.swift */; };
+		0EE7F6D4252BF19D0094215D /* TheatreLobbyArtDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7F6D3252BF19D0094215D /* TheatreLobbyArtDisplay.swift */; };
+		0EE7F6D8252BF1AC0094215D /* Concessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7F6D7252BF1AC0094215D /* Concessions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0EE7F6C5252BC4A40094215D /* TicketsAndDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsAndDates.swift; sourceTree = "<group>"; };
 		0EE7F6C9252BC8000094215D /* MusicalNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicalNumbers.swift; sourceTree = "<group>"; };
 		0EE7F6CC252BC9B30094215D /* MainHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeader.swift; sourceTree = "<group>"; };
+		0EE7F6D3252BF19D0094215D /* TheatreLobbyArtDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheatreLobbyArtDisplay.swift; sourceTree = "<group>"; };
+		0EE7F6D7252BF1AC0094215D /* Concessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concessions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,12 @@
 			children = (
 				0EE7F6B4252BBF3C0094215D /* ArtsAtLCSApp.swift */,
 				0EE7F6B6252BBF3C0094215D /* ContentView.swift */,
+				0EE7F6D0252BF14C0094215D /* The Show */,
+				0EE7F6D1252BF1580094215D /* Intermission */,
+				0EE7F6D2252BF1750094215D /* Components */,
 				0EE7F6B8252BBF3F0094215D /* Assets.xcassets */,
 				0EE7F6BD252BBF3F0094215D /* Info.plist */,
 				0EE7F6BA252BBF3F0094215D /* Preview Content */,
-				0EE7F6C5252BC4A40094215D /* TicketsAndDates.swift */,
-				0EE7F6C9252BC8000094215D /* MusicalNumbers.swift */,
-				0EE7F6CC252BC9B30094215D /* MainHeader.swift */,
 			);
 			path = ArtsAtLCS;
 			sourceTree = "<group>";
@@ -76,6 +80,32 @@
 				0EE7F6BB252BBF3F0094215D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EE7F6D0252BF14C0094215D /* The Show */ = {
+			isa = PBXGroup;
+			children = (
+				0EE7F6C5252BC4A40094215D /* TicketsAndDates.swift */,
+				0EE7F6C9252BC8000094215D /* MusicalNumbers.swift */,
+			);
+			path = "The Show";
+			sourceTree = "<group>";
+		};
+		0EE7F6D1252BF1580094215D /* Intermission */ = {
+			isa = PBXGroup;
+			children = (
+				0EE7F6D3252BF19D0094215D /* TheatreLobbyArtDisplay.swift */,
+				0EE7F6D7252BF1AC0094215D /* Concessions.swift */,
+			);
+			path = Intermission;
+			sourceTree = "<group>";
+		};
+		0EE7F6D2252BF1750094215D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0EE7F6CC252BC9B30094215D /* MainHeader.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +179,9 @@
 			files = (
 				0EE7F6CD252BC9B30094215D /* MainHeader.swift in Sources */,
 				0EE7F6C6252BC4A40094215D /* TicketsAndDates.swift in Sources */,
+				0EE7F6D8252BF1AC0094215D /* Concessions.swift in Sources */,
 				0EE7F6CA252BC8000094215D /* MusicalNumbers.swift in Sources */,
+				0EE7F6D4252BF19D0094215D /* TheatreLobbyArtDisplay.swift in Sources */,
 				0EE7F6B7252BBF3C0094215D /* ContentView.swift in Sources */,
 				0EE7F6B5252BBF3C0094215D /* ArtsAtLCSApp.swift in Sources */,
 			);
@@ -281,6 +313,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ArtsAtLCS/Preview Content\"";
+				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ArtsAtLCS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -302,6 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ArtsAtLCS/Preview Content\"";
+				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ArtsAtLCS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
